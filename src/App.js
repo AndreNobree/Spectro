@@ -68,7 +68,7 @@ function App() {
 
   // Função para enviar transcript para o backend
   function enviarTranscript(transcript) {
-    fetch('http://192.168.0.5:3001/executar-comando', {
+    fetch('http://192.168.0.8:3001/executar-comando', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
